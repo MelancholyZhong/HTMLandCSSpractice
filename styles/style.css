@@ -1,0 +1,113 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0 auto;
+}
+
+.navBar {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    display: flex;
+    background-color: aqua;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.navLinks {
+    display: flex;
+    list-style: none;
+    margin: 0px;
+}
+
+.linkItem {
+    margin: 20px;
+    text-decoration: none;
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    background-color: aqua;
+}
+
+.sectionHeader {
+    margin-bottom: 0;
+}
+
+.contactList {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0px;
+    padding: 0;
+}
+
+.contactItem {
+    margin: 10px;
+}
+
+.border0px {
+    border: 0px solid black;
+}
+
+.border5px {
+    border: 5px solid black;
+}
+.border10px {
+    border: 10px solid black;
+}
+
+.margin0px {
+    border: 1px solid black;
+    margin: 0px;
+}
+.margin5px {
+    border: 1px solid black;
+    margin: 5px;
+}
+.margin10px {
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.padding0px {
+    border: 1px solid black;
+    padding: 0px;
+}
+
+.padding5px {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.padding10px {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.explanation {
+    margin-left: 20px;
+}
+
+.relativePosition {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.absolutePosition {
+    position: absolute;
+    top: 10px;
+    left: 100px;
+}
+
+.sticky {
+    position: sticky;
+    top: 40px;
+    left: 0px;
+}
